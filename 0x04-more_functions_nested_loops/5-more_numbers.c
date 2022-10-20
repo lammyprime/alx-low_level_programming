@@ -9,9 +9,9 @@ void more_numbers(void)
 {
 int a;
 int b = 0;
-while (b <= 10)
+while (b <= 9)
 {
-for (a = 0; a <= 10; a++)
+for (a = '0'; a <= '10'; a++)
 {
 _putchar(a);
 }
