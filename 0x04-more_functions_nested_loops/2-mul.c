@@ -8,6 +8,5 @@
  */
 int mul(int a, int b)
 {
-multiple = a * b;
-_putchar("%d\n", multiple);
+_putchar("%d\n", mul(a,b);
 }
