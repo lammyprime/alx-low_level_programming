@@ -16,9 +16,12 @@ else
 {
 for (y = 0; y < n; y++)
 {
+for (x = 0; x < y; x++)
+{
 _putchar(32);
 }
 _putchar(92);
 _putchar('\n');
+}
 }
 }
