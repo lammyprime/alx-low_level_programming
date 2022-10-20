@@ -11,7 +11,7 @@ int a;
 int b = 0;
 while (b <= 9)
 {
-for (a = 0; a <= 14; a++)
+for (a = 0; a <= 13; a++)
 {
 _putchar(a);
 }
