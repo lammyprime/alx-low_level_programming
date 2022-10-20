@@ -13,7 +13,7 @@ _putchar('\n');
 }
 else
 {
-_putchar(n);
+_putchar(95);
 }
 _putchar('\n');
 }
