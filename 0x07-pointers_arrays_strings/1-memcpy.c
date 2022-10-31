@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_memcpy - function
+ * _memcpy - function
  * @dest: destination
  * @src: source
  * @n: number of bytes
@@ -16,5 +16,5 @@ for (i = 0; i < n; i++)
 {
 newdest[i] = newsrc[i];
 }
-return (newdest);
+return (dest);
 }
