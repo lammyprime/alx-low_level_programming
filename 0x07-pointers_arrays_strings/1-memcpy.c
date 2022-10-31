@@ -1,0 +1,19 @@
+#include "main.h"
+
+/**
+ * *_memcpy - function
+ * @dest: destination
+ * @src: source
+ * @n: number of bytes
+ * Return: dest
+ */
+char *_memcpy(char *dest, char *src, unsigned int n)
+{
+char *newsrc = (char *)src;
+char *newdest = (char *)dest;
+for (int i = 0; i < n; i++)
+{
+newdest[i] = newsrc[i];
+}
+return (newdest);
+}
