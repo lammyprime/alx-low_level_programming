@@ -14,7 +14,7 @@ char *newsrc = (char *)src;
 char *newdest = (char *)dest;
 for (i = 0; i < n; i++)
 {
-newdest[i] = newsrc[i];
+dest[i] = src[i];
 }
 return (dest);
 }
