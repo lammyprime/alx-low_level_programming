@@ -7,8 +7,8 @@
  * argv: An array of size argc
  * Return: 0
  */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-  printf ("my name is %s \n",argv[0]);
-  return (0);
+printf("my name is %s \n", argv[0]);
+return (0);
 }
