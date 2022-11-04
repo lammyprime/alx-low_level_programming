@@ -3,12 +3,12 @@
 
 /**
  * main - function
- * argc: The size of the argv array
- * argv: An array of size argc
+ * @argc: The size of the argv array
+ * @argv: An array of size argc
  * Return: 0
  */
 int main(int argc, char *argv[])
 {
-printf("my name is %s \n", argv[0]);
+printf("%s\n", argv[0]);
 return (0);
 }
