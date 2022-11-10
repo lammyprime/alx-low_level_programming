@@ -19,7 +19,7 @@ if (i == NULL)
 return (NULL);
 for (n = 0; n <= y; n++)
 {
-i[n] = min + 1;
+i[n] = min;
 min++;
 }
 return (i);
