@@ -17,7 +17,7 @@ return (NULL);
 i = malloc(sizeof(int) * (y + 1));
 if (i == NULL)
 return (NULL);
-for (n = 0; n < y; n++)
+for (n = 0; n <= y; n++)
 {
 i[n] = min;
 min++;
