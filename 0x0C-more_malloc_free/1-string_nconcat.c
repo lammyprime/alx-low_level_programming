@@ -15,7 +15,6 @@ if (s1 == NULL)
 s1 = "";
 if (s2 == NULL)
 s2 = "";
-if (strlen(s2) >= n)
 s = malloc(sizeof(char) * (strlen(s1) + n + 1));
 if (s == NULL)
 return (NULL);
