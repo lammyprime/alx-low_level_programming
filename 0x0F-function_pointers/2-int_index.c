@@ -4,6 +4,7 @@
  * @size: number of elements
  * @array: array
  * @cmp: pointer
+ * Return: If no element matches or size <= 0 - -1.
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
