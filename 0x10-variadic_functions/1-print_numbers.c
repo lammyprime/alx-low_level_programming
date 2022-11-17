@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * print_numbers - print numbersfunction
- * @n: number of arguments 
+ * @n: number of arguments
  * @separator: seperatoor string
  * Return: return
  */
@@ -11,7 +11,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 {
 va_list numbers;
 unsigned int i;
-va_start (numbers, n);
+va_start(numbers, n);
 for (i = 0; i < n; i++)
 {
 printf("%d", va_arg(numbers, int));
