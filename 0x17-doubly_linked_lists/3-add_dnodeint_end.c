@@ -21,7 +21,8 @@ new->next = NULL;
 *head = new;
 return (new);
 }
-for (; temp->next; temp = temp->next);
+for (; temp->next; temp = temp->next)
+;
 temp->next = new;
 new->next = NULL;
 new->prev = temp;
