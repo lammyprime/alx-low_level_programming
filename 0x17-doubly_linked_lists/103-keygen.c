@@ -77,8 +77,8 @@ return (((unsigned int)ch ^ 229) & 63);
  */
 int main(int argc, char **argv)
 {
-  char keygen[7];
-  int len, ch, vch;
+char keygen[7];
+int len, ch, vch;
 long alph[] = {
 	       0x3877445248432d41, 0x42394530534e6c37, 0x4d6e706762695432,
 	       0x74767a5835737956, 0x2b554c59634a474f, 0x71786636576a6d34,
